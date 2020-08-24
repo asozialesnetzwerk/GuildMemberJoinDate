@@ -1,11 +1,3 @@
 .gradle/*
 .idea/*
-build/classes/*
-build/generated/*
-build/tmp/*
-gradle/*
-build/libs/
-
-build/scripts/
-
-build/distributions/
+build/*
