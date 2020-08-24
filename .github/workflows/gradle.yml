@@ -23,9 +23,9 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Generate distributions with Gradle
-      run: ./gradlew distZip distTar
+      run: ./gradlew distZip
     - uses: actions/upload-artifact@v2
       with:
-        name: Distributions
-        path: build/distributions
+        name: Distribution
+        path: build/distributions/*.zip
 
