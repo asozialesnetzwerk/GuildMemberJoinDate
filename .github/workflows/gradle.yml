@@ -25,7 +25,7 @@ jobs:
     - name: Generate distributions with Gradle
       run: ./gradlew distZip distTar
     - uses: actions/upload-artifact@v2
-    with:
-      name: Distributions
-      path: build/distributions
+      with:
+        name: Distributions
+        path: build/distributions
 
